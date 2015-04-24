@@ -6,16 +6,33 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\catwalk_def_spr</sprite>
-    <sprite>sprites\catfront_def_spr</sprite>
-    <sprite>sprites\cat_house_spr</sprite>
+    <sprites name="cats">
+      <sprite>sprites\catfront_def_spr</sprite>
+      <sprite>sprites\catsit_def_spr</sprite>
+      <sprite>sprites\catwalk_def_spr</sprite>
+      <sprite>sprites\catfront_orange_spr</sprite>
+    </sprites>
+    <sprites name="houses">
+      <sprite>sprites\cat_house_spr</sprite>
+    </sprites>
+    <sprites name="props">
+      <sprite>sprites\catchow_spr</sprite>
+      <sprite>sprites\foodbow_spr</sprite>
+    </sprites>
+    <sprites name="ui">
+      <sprite>sprites\catbox</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\unifont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\cat</object>
     <object>objects\cathouse</object>
-    <object>objects\viewobj</object>
+    <object>objects\mouse_obj</object>
+    <object>objects\foodbowl</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\catmansion</room>

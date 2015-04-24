@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="viewobj" xview="0" yview="0" wview="960" hview="540" xport="0" yport="0" wport="1920" hport="1080" hborder="50" vborder="50" hspeed="6" vspeed="6"/>
+    <view visible="-1" objName="mouse_obj" xview="0" yview="0" wview="960" hview="540" xport="0" yport="0" wport="1920" hport="1080" hborder="50" vborder="50" hspeed="6" vspeed="6"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -53,7 +53,11 @@
   <instances>
     <instance objName="cathouse" x="320" y="288" name="inst_74803AC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cat" x="320" y="288" name="inst_9B94176B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="viewobj" x="672" y="448" name="inst_8EE0D322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mouse_obj" x="672" y="448" name="inst_8EE0D322" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="foodbowl" x="448" y="288" name="inst_9292BD0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cat" x="192" y="288" name="inst_9E220DC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cat" x="384" y="288" name="inst_6F0E258E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cat" x="256" y="288" name="inst_7DE900A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
